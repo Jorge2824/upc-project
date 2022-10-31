@@ -13,13 +13,13 @@ class CreateCoursesTable extends Migration
      */
     public function up()
     {
-        Schema::create('courses', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->text('name',300)->nullable();
-            $table->text('description',300)->nullable();
-            $table->integer('credits')->default(1);
-            $table->timestamps();
-        });
+        // Schema::create('courses', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->text('name',300)->nullable();
+        //     $table->text('description',300)->nullable();
+        //     $table->integer('credits')->default(1);
+        //     $table->timestamps();
+        // });
     }
 
     /**
