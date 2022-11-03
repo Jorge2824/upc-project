@@ -22,4 +22,4 @@ Route::get('/user/profile', function () {
     return "Hello Worlds adad";
 });
 
-Route::get('/courses', "App\Http\Controllers\Api\ApiCoursesController@searchCourses");
+Route::post('/courses', "App\Http\Controllers\Api\ApiCoursesController@searchCourses");
